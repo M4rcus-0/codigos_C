@@ -82,7 +82,7 @@ int main()
         }
         else if (sorteio == false && bot == false)
         {
-            jogo.player1->marcador = valor;
+            jogo.player2->marcador = valor;
             jogo.player1->marcador = (jogo.player2->marcador == 'x') ? 'o' : 'x';
         }
         jogador = sorteio;
