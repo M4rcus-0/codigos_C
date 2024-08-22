@@ -30,7 +30,7 @@ int pesquisaDiagonalNoroeste(jogador jogador[], int w, char x[], int y, int z);
 
 int main()
 {
-    setlocale(LC_ALL, "Portuguese");
+    setlocale(LC_ALL, "utf-8");
     jogador J[limite];
     int semente, total, tamanho, maior = -999999;
     char valor[tamanhoMat], parametro;
